@@ -1,0 +1,11 @@
+2_4)How memory is managed in Python?
+
+Python makes use of automatic memory management through garbage collection. The garbage collector keeps track of objects and frees memory when they are no longer in use. Python uses reference counting to manage memory, incrementing and decrementing reference counts as needed.
+
+2_5)What is the purpose continue statement in python?
+
+continue statement is a jumping control statement which will skip the current statement and continues to the next statement.
+
+2_14)What are negative indexes and why are they used? 
+
+Negative Indexing is used to in Python to begin slicing from the end of the string i.e. the last. Slicing in Python gets a sub-string from a string. The slicing range is set as parameters i.e. start, stop and step.
