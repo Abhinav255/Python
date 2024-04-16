@@ -1,0 +1,159 @@
+• What is File function in python? What is keywords to create and write file. 
+
+- Python has a built-in function open() to open the file. open () returns a file object that is called a handle. It is used to read or modify the file.
+
+ There are 6 access modes in Python:
+ Read Only (‘r’)
+ Read and Write (‘r+’)
+ Write Only (‘w’)
+ Write and Read (‘w+’)
+ Append Only (‘a’)
+ Append and Read (‘a+’)
+
+ 
+
+• Explain Exception handling? What is an Error in Python?
+
+- The requirement for handling exceptions in Python arises when an error occurs that can cause the program to terminate. Errors interrupt     the flow of the program at the point where they appear, so any further code stops executing. This error is called an exception. The exception has to be handled so that the interpreter can execute all the code that exists after the exception.
+Some common examples of such errors are dividing a number by zero, adding two incompatible types, trying to access a non-existent index of a sequence or accessing a file that does not exist. These scenarios are called exceptions. When the method cannot handle the exception, it gets thrown out of the main function, causing the program to terminate abruptly. It is necessary to prevent all such unexpected errors so that the program keeps running. Programmers write a special block of code that triggers automatically on detecting such errors. This is called exception handling in Python.
+
+ 
+• How many except statements can a try-except block have? Name Some built-in exception classes:
+
+- You can have multiple try blocks in a program but only one except statement with each try block. 
+1	ArithmeticException Arithmetic error, such as divide-by-zero.
+2	ArrayIndexOutOfBoundsException Array index is out-of-bounds.
+3	ArrayStoreException Assignment to an array element of an incompatible type.
+4	ClassCastException Invalid cast.
+
+• When will the else part of try-except-else be executed?
+
+- The else part is executed when no exception occurs.
+
+• Can one block of except statements handle multiple exception?
+
+- Yes, a single block of except statements in Python can handle multiple exceptions. This feature allows you to handle different types of exceptions using a single block of code.
+
+• When is the finally block executed?
+
+
+- A finally block always executes, regardless of whether an exception is thrown. 
+
+• What happens when "1"== 1 is executed?
+
+
+- It simply evaluates to False and does not raise any exception.
+
+• How Do You Handle Exceptions With Try/Except/Finally In Python? Explain with coding snippets.
+
+- Exception handling with try, except, else, and finally
+Try: This block will test the excepted error to occur
+Except:  Here you can handle the error
+Else: If there is no exception then this block will be executed
+Finally: Finally block always gets executed either exception is generated or not
+Python Try, Except, else and Finally Syntax
+try:
+       # Some Code.... 
+except:
+       # optional block
+       # Handling of exception (if required)
+else:
+       # execute if no exception
+finally:
+      # Some code .....(always executed)
+Working of ‘try’ and ‘except’
+Let’s first understand how the Python try and except works
+
+First try clause is executed i.e. the code between try and except clause.
+If there is no exception, then only try clause will run, except clause will not get executed.
+If any exception occurs, the try clause will be skipped and except clause will run.
+If any exception occurs, but the except clause within the code doesn’t handle it, it is passed on to the outer try statements. If the exception is left unhandled, then the execution stops.
+A try statement can have more than one except clause.
+Example: Let us try to take user integer input and throw the exception in except block.
+
+# Python code to illustrate working of try()  
+def divide(x, y): 
+    try: 
+        # Floor Division : Gives only Fractional
+        # Part as Answer 
+        result = x // y 
+        print("Yeah ! Your answer is :", result) 
+    except ZeroDivisionError: 
+        print("Sorry ! You are dividing by zero ") 
+   
+# Look at parameters and note the working of Program 
+divide(3, 2) 
+divide(3, 0)
+Output:
+
+Yeah ! Your answer is : 1
+Sorry ! You are dividing by zero 
+
+
+• What are oops concepts? Is multiple inheritance supported in java
+
+- Inheritance, Polymorphism, Encapsulation, Abstraction and Class-Object are the main concepts of oops
+  Java does not support Multiple inheritance.
+
+
+• How to Define a Class in Python? What Is Self? Give An Example Of A Python Class
+
+- Python is an object oriented programming language.
+
+  A Class is like an object constructor, or a "blueprint" for creating objects.
+
+  Create a Class
+  To create a class, use the keyword class:
+
+  Create a class named MyClass, with a property named x:
+
+  class MyClass:
+	x = 5
+
+  Self represents the instance of the class. By using the “self” we can access the attributes and methods of the class in Python. It binds   the attributes with the given arguments. The reason you need to use self. is because Python does not use the @ syntax to refer to instance   attributes.
+
+
+
+• What is Instantiation in terms of OOP terminology?
+
+- Instantiation, in terms of object-oriented programming (OOP) terminology, refers to the process of creating an instance of a class.
+
+When you define a class in an object-oriented programming language like Python, Java, or C++, you are essentially creating a blueprint or a template for objects of that class. However, the actual objects that you work with in your code are created through instantiation.
+
+To instantiate a class means to create an object of that class. This involves calling the class's constructor method, which typically initializes the object's attributes and sets up its initial state. Once instantiated, the object is then ready to be used and manipulated according to the behavior defined within its class.
+
+• What is used to check whether an object o is an instance of class A?
+
+- In Python, you can use the isinstance() function to check whether an object o is an instance of class A.
+
+  class A:
+    pass
+
+# Creating an instance of class A
+obj = A()
+
+# Checking if obj is an instance of class A
+if isinstance(obj, A):
+    print("obj is an instance of class A")
+else:
+    print("obj is not an instance of class A")
+
+
+
+• What relationship is appropriate for Course and Faculty?
+
+- One-to-On and Many-to-Many relationship is appropriate for course and faculty.
+ 
+The appropriate relationship between Course and Faculty would typically be association. Association signifies a relationship where objects of one class are related to objects of another class, but they are independent and can exist without each other.
+
+In the context of a university or educational institution, a Course can have multiple Faculty members associated with it, and a Faculty member can be associated with multiple Courses. This relationship allows for flexibility, as different faculty members can teach different courses, and courses can be taught by multiple faculty members.
+
+
+
+
+• What relationship is appropriate for Student and Person
+
+- The appropriate relationship between Student and Person would typically be inheritance.
+
+Inheritance signifies an "is-a" relationship, where a subclass (e.g., Student) is a specialized version of a superclass (e.g., Person). This means that a Student shares characteristics and behaviors of a Person, but may also have additional attributes or methods specific to being a student.
+
