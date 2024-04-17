@@ -11,12 +11,12 @@ print(j)
 
 print()
 # taking a class 
-class harsh:
+class abhi:
     # creating a function
     def func(self):
         # print the string
         print("This is all About The Class")
 # creating a object of class
-obj=harsh()
+obj=abhi()
 # calling the object by . operator
 obj.func()
