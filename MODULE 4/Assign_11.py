@@ -7,13 +7,13 @@ for j in l:
      print(j)
     
 # Open the file "python.txt" in write mode ("a")s
-file=open("harsh.txt","w")
+file=open("abhi.txt","w")
 # writing the File
 file.write(j)
 # closing The File
 file.close
 # Open the file "python.txt" in read mode ("r")
-file=open("harsh.txt","r")
+file=open("abhi.txt","r")
 # now read and printing the lines 
 print(file.readlines())
 # closing the Files

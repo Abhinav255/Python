@@ -1,6 +1,6 @@
 # 12 Write a Python program to copy the contents of a file to another file. 
 # Open the file "harsh.txt" in read mode ("r")
-file=open("harsh.txt","r")
+file=open("abhi.txt","r")
 # we created a variable "k"
 k=""
 # we get the data of file using loop into a "j" variable
