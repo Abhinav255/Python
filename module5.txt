@@ -24,6 +24,9 @@ Create a Django project: Once Django is installed, you can create a new Django p
 django-admin startproject myproject
 Replace "myproject" with the name you want to give to your project.
 
+8) https://github.com/Abhinav255/Python/edit/main/medico_website
+9) https://www.github.com/brijeshvekariya/stylesphere_e-commerce
+
 Navigate to the project directory: Change your current directory to the newly created project directory using the cd command:
 
 
