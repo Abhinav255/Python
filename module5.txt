@@ -98,4 +98,4 @@ That's it! You've now created a new Django project and started the development s
     The purpose of django-admin.py make messages is to extract translatable strings from the codebase and create or update message files, not specifically to create a new message file for a Django project or app.
 
 8) https://github.com/Abhinav255/Python/edit/main/medico_website
-9) https://www.github.com/brijeshvekariya/stylesphere_e-commerce
+9) https://github.com/Abhinav255/Python/edit/main/stylesphere_e-commerce
