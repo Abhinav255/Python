@@ -24,6 +24,7 @@ Create a Django project: Once Django is installed, you can create a new Django p
 django-admin startproject myproject
 Replace "myproject" with the name you want to give to your project.
 
+
 Navigate to the project directory: Change your current directory to the newly created project directory using the cd command:
 
 
@@ -95,3 +96,6 @@ That's it! You've now created a new Django project and started the development s
 (7) Explain what does django-admin.py make messages command is used for?
 ->  The django-admin.py make messages command is used to create a new message file in your Django project. This command is particularly useful when you want to create a new message file for a specific app.
     The purpose of django-admin.py make messages is to extract translatable strings from the codebase and create or update message files, not specifically to create a new message file for a Django project or app.
+
+8) https://github.com/Abhinav255/Python/tree/main/medico_website
+9) https://github.com/Abhinav255/Python/tree/main/stylesphere_e-commerce
